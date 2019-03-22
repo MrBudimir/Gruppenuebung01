@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Greeter g = new Greeting("Mike Ulm");
+		Greeter g = new Greeting("Michael Ulm");
     g.sayHello();
     g.sayGoodbye();
 
