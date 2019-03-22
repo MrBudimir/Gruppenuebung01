@@ -4,10 +4,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Greeter g = new GreeterImpl("Mike Ulm");
-    // First Task
+		Greeter g = new Greeting("Mike Ulm");
     g.sayHello();
-    g.sayGoodBye();
+    g.sayGoodbye();
 
 	}
 
