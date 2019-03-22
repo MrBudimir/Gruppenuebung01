@@ -13,6 +13,9 @@ public class Greeting implements Greeter {
   public void sayGoodbye(){
     System.out.println("GoodBye " + this.name);
   }
+  public void sayBoop(){
+    System.out.println("Boop");
+  }
 
   // Constructor
   public Greeting(String name){
