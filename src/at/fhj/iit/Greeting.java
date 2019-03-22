@@ -6,12 +6,12 @@ public class Greeting implements Greeter {
 
   @Override
   public void sayHello(){
-    System.out.println("Hello " + this.name);
+    System.out.println("Hello, " + this.name + "!");
   }
 
   @Override
   public void sayGoodbye(){
-    System.out.println("GoodBye " + this.name);
+    System.out.println("Good Bye, " + this.name + "!");
   }
 
   // Constructor
